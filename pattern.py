@@ -1,8 +1,8 @@
-n=int(input("Enter the range -:"))
-max=n*2
+a=int(input("Enter the range -:"))
+max=a*2
 for i in range(1,max):
     for j in range(1,max):
-        if(i<n):
+        if(i<a):
             if ((i%2==0 and j%2==0) or (i%2!=0 and j%2!=0)) and i<=j<=max-i:
                 print("*",end='')
             else:
