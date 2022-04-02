@@ -35,3 +35,4 @@ while(i!=0):
 c.append(a)
 fun(c,b,len(b)-1)
 print("\nAll Possible Combination From Given Number Are -:",c)
+
