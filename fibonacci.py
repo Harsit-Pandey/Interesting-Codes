@@ -10,12 +10,12 @@ n=int(input("Enter a natural number-:"))
 if(n<0):
     print("Negetive number found.")
     exit(0)
-a=[0,1]
+list=[0,1]
 if n==0:
     print("0 is Not a Valid Value.")
     exit(0)
 if n==1:
-        print(a[0],end='.')
+        print(list[0],end='.')
 else: 
-    ser(n-1,a)
-    print(a)
+    ser(n-1,list)
+    print(list)
